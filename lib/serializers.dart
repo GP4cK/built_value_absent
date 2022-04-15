@@ -9,6 +9,4 @@ part 'serializers.g.dart';
 @SerializersFor([
   SimpleValue,
 ])
-
 final serializers = (_$serializers.toBuilder()..addPlugin(StandardJsonPlugin())).build();
-
